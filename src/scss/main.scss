@@ -1,0 +1,2824 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 200px) { 
+    #menubar {
+        .nav-item {
+            padding: 0px 10px 0px 10px;
+        }
+        .nav-link {
+            color: #41ad49;
+            font-weight: 600;
+            &:hover {
+                color: #1d968c;
+            }
+            &.active {
+                color: #1d968c;
+            }
+        }
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+            }
+        }
+        .dropdown-menu {
+            background-color: #41ad49;
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                top: 32px;
+                left: 13px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 9.5px 11px 9.5px;
+                border-color: transparent transparent #41ad49 transparent
+            }
+        }
+        .dropdown-item {
+            color: #fff;
+            &:hover, &.active {
+                color: #fff;
+                text-decoration: none;
+                background-color: #1d968c;
+            }
+        }
+    }
+    #about-baner {
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover, &:active {
+                color: #41ad49;
+            }
+        }
+        .breadcrumb-item {
+            &.active {
+                color: #41ad49;
+            }
+        }
+    }
+    #about-3 {
+        .outer-box {
+            padding: 20px;
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+    #second {
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #three {
+        .outer{
+            box-shadow: 2px 3px 8px #ceced4;
+            height: 350px;
+            border-radius: 40px !important;
+        }
+    }
+    #four {
+        // background-image: url(../images/projects-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #five {
+        .fa-arrow-left {
+            position: relative;
+            left: -125px;
+        }
+        .fa-arrow-right {
+            position: relative;
+            right: -125px;
+        }
+    }
+    #six {
+        background-image: url(../images/testimonials-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        .carousel-indicators {
+            bottom: -35px;
+        }
+    }
+    #footer {
+        a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+        h5 {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    #res-1 {
+        .outer {
+            height: 100%;
+        }
+    }
+    #krish-1 {
+        h2 {
+            color: #41ad49;
+        }
+    }
+    #krish-2 {
+        ul {
+            li {
+                padding: 10px;
+                &::before {
+                    color: #fff;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #amenities {
+        .bg {
+            background-color: #D9CBBD;
+        }
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #csr {
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #contact {
+        .body-wrap {
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+        h2, h3 {
+            color: #41ad49;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+    }
+    #specification {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+    #krish-3 {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    #menubar {
+        .nav-item {
+            padding: 0px 10px 0px 10px;
+        }
+        .nav-link {
+            color: #41ad49;
+            font-weight: 600;
+            &:hover {
+                color: #1d968c;
+            }
+            &.active {
+                color: #1d968c;
+            }
+        }
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+            }
+        }
+        .dropdown-menu {
+            background-color: #41ad49;
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                top: -11px;
+                left: 10px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 9.5px 11px 9.5px;
+                border-color: transparent transparent #41ad49 transparent
+            }
+        }
+        .dropdown-item {
+            color: #fff;
+            &:hover, &.active {
+                color: #fff;
+                text-decoration: none;
+                background-color: #1d968c;
+            }
+        }
+    }
+    #about-baner {
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover, &:active {
+                color: #41ad49;
+            }
+        }
+        .breadcrumb-item {
+            &.active {
+                color: #41ad49;
+            }
+        }
+    }
+    #about-3 {
+        .outer-box {
+            padding: 20px;
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+    #second {
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #three {
+        .outer{
+            box-shadow: 2px 3px 8px #ceced4;
+            height: 350px;
+            border-radius: 40px !important;
+        }
+    }
+    #four {
+        // background-image: url(../images/projects-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #five {
+        .fa-arrow-left {
+            position: relative;
+            left: -125px;
+        }
+        .fa-arrow-right {
+            position: relative;
+            right: -125px;
+        }
+    }
+    #six {
+        background-image: url(../images/testimonials-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        .carousel-indicators {
+            bottom: -35px;
+        }
+    }
+    #footer {
+        a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+        h5 {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    #res-1 {
+        .outer {
+            height: 100%;
+        }
+    }
+    #krish-1 {
+        h2 {
+            color: #41ad49;
+        }
+    }
+    #krish-2 {
+        ul {
+            li {
+                padding: 10px;
+                &::before {
+                    color: #fff;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #amenities {
+        .bg {
+            background-color: #D9CBBD;
+        }
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #csr {
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #contact {
+        .body-wrap {
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+        h2, h3 {
+            color: #41ad49;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+    }
+    #specification {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-hend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+    #krish-3 {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    #menubar {
+        .nav-item {
+            padding: 0px 10px 0px 10px;
+        }
+        .nav-link {
+            color: #41ad49;
+            font-weight: 600;
+            &:hover {
+                color: #1d968c;
+            }
+            &.active {
+                color: #1d968c;
+            }
+        }
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+            }
+        }
+        .dropdown-menu {
+            background-color: #41ad49;
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                top: -11px;
+                left: 10px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 9.5px 11px 9.5px;
+                border-color: transparent transparent #41ad49 transparent
+            }
+        }
+        .dropdown-item {
+            color: #fff;
+            &:hover, &.active {
+                color: #fff;
+                text-decoration: none;
+                background-color: #1d968c;
+            }
+        }
+    }
+    #about-baner {
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover, &:active {
+                color: #41ad49;
+            }
+        }
+        .breadcrumb-item {
+            &.active {
+                color: #41ad49;
+            }
+        }
+    }
+    #about-3 {
+        .outer-box {
+            padding: 20px;
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+    #second {
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #three {
+        .outer{
+            box-shadow: 2px 3px 8px #ceced4;
+            height: 350px;
+            border-radius: 40px !important;
+        }
+    }
+    #four {
+        // background-image: url(../images/projects-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #five {
+        .fa-arrow-left {
+            position: relative;
+            left: -125px;
+        }
+        .fa-arrow-right {
+            position: relative;
+            right: -125px;
+        }
+    }
+    #six {
+        background-image: url(../images/testimonials-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        .carousel-indicators {
+            bottom: -35px;
+        }
+    }
+    #footer {
+        a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+        h5 {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    #res-1 {
+        .outer {
+            height: 100%;
+        }
+    }
+    #krish-1 {
+        h2 {
+            color: #41ad49;
+        }
+    }
+    #krish-2 {
+        ul {
+            li {
+                padding: 10px;
+                &::before {
+                    color: #fff;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #amenities {
+        .bg {
+            background-color: #D9CBBD;
+        }
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #csr {
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #contact {
+        .body-wrap {
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+        h2, h3 {
+            color: #41ad49;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+    }
+    #specification {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+    #krish-3 {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    #menubar {
+        .nav-item {
+            padding: 0px 10px 0px 10px;
+        }
+        .nav-link {
+            color: #41ad49;
+            font-weight: 600;
+            &:hover {
+                color: #1d968c;
+            }
+            &.active {
+                color: #1d968c;
+            }
+        }
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+            }
+        }
+        .dropdown-menu {
+            background-color: #41ad49;
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                top: -11px;
+                left: 10px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 9.5px 11px 9.5px;
+                border-color: transparent transparent #41ad49 transparent
+            }
+        }
+        .dropdown-item {
+            color: #fff;
+            &:hover, &.active {
+                color: #fff;
+                text-decoration: none;
+                background-color: #1d968c;
+            }
+        }
+    }
+    #about-baner {
+        a {
+            color: #fff !important;
+            &:hover, &:active {
+                color: #41ad49 !important;
+            }
+        }
+        .breadcrumb-item {
+            &::before {
+                color: #fff !important;
+            }
+            &.active {
+                color: #fff;
+            }
+        }
+    }
+    #about-3 {
+        .outer-box {
+            padding: 20px;
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+    #second {
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #three {
+        .outer{
+            box-shadow: 2px 3px 8px #ceced4;
+            height: 350px;
+            border-radius: 40px !important;
+        }
+    }
+    #four {
+        // background-image: url(../images/projects-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #five {
+        .fa-arrow-left {
+            position: relative;
+            left: -125px;
+        }
+        .fa-arrow-right {
+            position: relative;
+            right: -125px;
+        }
+    }
+    #six {
+        background-image: url(../images/testimonials-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        .carousel-indicators {
+            bottom: -35px;
+        }
+    }
+    #footer {
+        a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+        h5 {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    #res-1 {
+        .outer {
+            height: 100%;
+        }
+    }
+    #krish-1 {
+        h2 {
+            color: #41ad49;
+        }
+    }
+    #krish-2 {
+        ul {
+            li {
+                padding: 10px;
+                &::before {
+                    color: #fff;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #amenities {
+        .bg {
+            background-color: #D9CBBD;
+        }
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #csr {
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #contact {
+        .body-wrap {
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+        h2, h3 {
+            color: #41ad49;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+    }
+    #specification {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+    #krish-3 {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+    #menubar {
+        .nav-item {
+            padding: 0px 10px 0px 10px;
+        }
+        .nav-link {
+            color: #41ad49;
+            font-weight: 600;
+            &:hover {
+                color: #1d968c;
+            }
+            &.active {
+                color: #1d968c;
+            }
+        }
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+            }
+        }
+        .dropdown-menu {
+            background-color: #41ad49;
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                top: -11px;
+                left: 10px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 9.5px 11px 9.5px;
+                border-color: transparent transparent #41ad49 transparent
+            }
+        }
+        .dropdown-item {
+            color: #fff;
+            &:hover, &.active {
+                color: #fff;
+                text-decoration: none;
+                background-color: #1d968c;
+            }
+        }
+    }
+    #about-baner {
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover, &:active {
+                color: #41ad49;
+            }
+        }
+        .breadcrumb-item {
+            &.active {
+                color: #41ad49;
+            }
+        }
+    }
+    #about-3 {
+        .outer-box {
+            padding: 20px;
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+    #second {
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #three {
+        .outer{
+            box-shadow: 2px 3px 8px #ceced4;
+            height: 350px;
+            border-radius: 40px !important;
+        }
+    }
+    #four {
+        // background-image: url(../images/projects-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #five {
+        .fa-arrow-left {
+            position: relative;
+            left: -125px;
+        }
+        .fa-arrow-right {
+            position: relative;
+            right: -125px;
+        }
+    }
+    #six {
+        background-image: url(../images/testimonials-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        .carousel-indicators {
+            bottom: -35px;
+        }
+    }
+    #footer {
+        a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+        h5 {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    #res-1 {
+        .outer {
+            height: 100%;
+        }
+    }
+    #krish-1 {
+        h2 {
+            color: #41ad49;
+        }
+    }
+    #krish-2 {
+        ul {
+            li {
+                padding: 10px;
+                &::before {
+                    color: #fff;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #amenities {
+        .bg {
+            background-color: #D9CBBD;
+        }
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #csr {
+        ul {
+            li {
+                padding: 5px;
+                &::before {
+                    color: #000;
+                    font-family: "Material Icons Outlined";
+                    content: "\e5c8";
+                    height: 20px;
+                    margin-left: -20px;
+                    position: absolute;
+                    transition: .4s;
+                }
+            }
+        }
+    }
+    #contact {
+        .body-wrap {
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+        h2, h3 {
+            color: #41ad49;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            &:hover {
+                color: #41ad49;
+            }
+        }
+    }
+    #specification {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+    #krish-3 {
+        background-image: url(../images/slider/3.png);
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 993px;
+        background-color: rgba(51, 49, 49, 0.76);
+        background-blend-mode: overlay;
+        .structure {
+            background-image: url(../images/bg/1.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .flooring {
+            background-image: url(../images/bg/2.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .painting {
+            background-image: url(../images/bg/3.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .windows {
+            background-image: url(../images/bg/4.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .kitchen {
+            background-image: url(../images/bg/5.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .electrical {
+            background-image: url(../images/bg/6.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .doors {
+            background-image: url(../images/bg/7.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .bathrooms {
+            background-image: url(../images/bg/8.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+        .water {
+            background-image: url(../images/bg/9.png);
+            background-size: cover;
+            min-height: 250px;
+            background-position: right;
+            background-repeat: space;
+            ul {
+                li{
+                    &::before {
+                        color: #000;
+                        font-family: "Material Icons Outlined";
+                        content: "\e5c8";
+                        font-size: 15px;
+                        margin-left: 0px;
+                        transition: .4s;
+                    }
+                }
+            }
+        }
+    }
+ }
+ .stickyForm {
+    position: fixed;
+    top: 25%;
+    width: 310px;
+    right: -310px;
+    text-align: center;
+    padding: 17px;
+    background: #ffffffe0;
+    border-radius: 0;
+    transition: .35s ease-in-out;
+    z-index: 999;
+    .active {
+        right: 0;
+    }
+    .btn {
+        background: #ffe5b1;
+        padding: 10px 32px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: -100px;
+        color: #000c2c;
+        height: 40px;
+        border-radius: 0;
+        font-size: 15px;
+        cursor: pointer;
+        transform: rotate(-90deg);
+        border: 0;
+        perspective: 100px;
+        outline: 0!important;
+    }
+ }
+
+ .lb-loader,.lightbox{text-align:center;line-height:0;position:absolute;left:0}body.lb-disable-scrolling{overflow:hidden}.lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:#000;filter:alpha(Opacity=80);opacity:.8;display:none}.lightbox{width:100%;z-index:10000;font-weight:400;outline:0}.lightbox .lb-image{display:block;height:auto;max-width:inherit;max-height:none;border-radius:3px;border:4px solid #fff}.lightbox a img{border:none}.lb-outerContainer{position:relative;width:250px;height:250px;margin:0 auto;border-radius:4px;background-color:#fff}.lb-outerContainer:after{content:"";display:table;clear:both}.lb-loader{top:43%;height:25%;width:100%}.lb-cancel{display:block;width:32px;height:32px;margin:0 auto;background:url(../images/loading.gif) no-repeat}.lb-nav{position:absolute;top:0;left:0;height:100%;width:100%;z-index:10}.lb-container>.nav{left:0}.lb-nav a{outline:0;background-image:url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)}.lb-next,.lb-prev{height:100%;cursor:pointer;display:block}.lb-nav a.lb-prev{width:34%;left:0;float:left;background:url(../images/prev.png) left 48% no-repeat;filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}.lb-nav a.lb-prev:hover{filter:alpha(Opacity=100);opacity:1}.lb-nav a.lb-next{width:64%;right:0;float:right;background:url(../images/next.png) right 48% no-repeat;filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}.lb-nav a.lb-next:hover{filter:alpha(Opacity=100);opacity:1}.lb-dataContainer{margin:0 auto;padding-top:5px;width:100%;border-bottom-left-radius:4px;border-bottom-right-radius:4px}.lb-dataContainer:after{content:"";display:table;clear:both}.lb-data{padding:0 4px;color:#ccc}.lb-data .lb-details{width:85%;float:left;text-align:left;line-height:1.1em}.lb-data .lb-caption{font-size:13px;font-weight:700;line-height:1em}.lb-data .lb-caption a{color:#4ae}.lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:12px;color:#999}.lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../images/close.png) top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}.lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1}
